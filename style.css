@@ -23,3 +23,24 @@ body {
     font-size: 1.4rem;
     text-transform: uppercase;
   }
+  .colors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    width: 60vw;
+    min-width: 300px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .colors__block {
+    height: 100px;
+    width: 100%;
+    background: #ddd;
+    cursor: pointer;
+    transition: background 0.4s ease;
+  }
+  
+  .colors__block:hover {
+    opacity: 0.9;
+  }
