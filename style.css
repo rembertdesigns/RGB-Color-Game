@@ -44,3 +44,26 @@ body {
   .colors__block:hover {
     opacity: 0.9;
   }
+  .status {
+    min-width: 300px;
+    width: 60vw;
+    margin: 20px auto;
+    font-size: 1rem;
+  }
+  
+  .diff {
+    margin: 20px auto;
+  }
+  
+  .diff__btn {
+    font-size: 14px;
+    border: solid 1px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .diff__btn.active {
+    background: black;
+    color: white;
+    border-color: black;
+  }
